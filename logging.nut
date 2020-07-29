@@ -9,3 +9,4 @@
  */
 
 server.log("This file is where your custom logging code might appear.");
+server.log("This is the DEVELOP branch version.");
