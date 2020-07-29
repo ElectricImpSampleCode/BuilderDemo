@@ -8,4 +8,4 @@
  *
  */
 
-server.log("This file is where your customer handling code might appear.");
+server.log("This file is where your custom logging code might appear.");
