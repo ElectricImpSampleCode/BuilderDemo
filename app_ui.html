@@ -1,0 +1,55 @@
+<!--
+/*
+ *
+ * Builder Demo Version 1.0.0
+ *
+ * This file contains sample UI HTML code.
+ * It contains no application code; it is simply for demonstrating
+ * Electric Imp's impWorks™ Builder tool
+ *
+ */
+-->
+<!DOCTYPE html><html lang='en-US'><meta charset='UTF-8'>
+<head>
+  <title>Device Status Monitor 1.1.0</title>
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+  <link rel='apple-touch-icon' href='https://smittytone.github.io/images/ati-imp.png'>
+  <link rel='shortcut icon' href='https://smittytone.github.io/images/ico-imp.ico'>
+  <meta http-equiv='Cache-Control' content='no-cache, no-store, must-revalidate'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <style>
+    .center { margin-left: auto; margin-right: auto; margin-bottom: auto; margin-top: auto; }
+    body {background-color: #21abd4;}
+    p {color: white; font-family: Comfortaa}
+    h3 {color: white; font-family: Comfortaa; font-weight:bold}
+    h4 {color: white; font-family: Comfortaa}
+    td {color: white; font-family: Comfortaa; vertical-align: center;}
+    .tabborder {width: 20px; text-align: center}
+    .tabcontent {width: 300px; text-align: left}
+    .uicontent {border: 2px solid white; padding: 5px}
+    .container {padding: 20px}
+  </style>
+</head>
+<body>
+  <div class='container'>
+  <div class='uicontent' align='center'>
+    <h3>Electric Imp</h3>
+    <h3>Device Status Monitor</h3>
+    <p>Updated at %s<br>&nbsp;</p>
+      <table width='100%%'>
+        <tr>
+            <td class='tabborder'><img src='%s' width='16' height='16'></td>
+            <td class='tabborder'><img src='%s' width='16' height='16'></td>
+            <td class='tabcontent'><h4>%s</h4></td>
+        </tr>
+      </table>
+  </div>
+  </div>
+  <script>
+    setTimeout(function() {
+      location.reload(true);
+    }, 30000);
+  </script>
+</body>
+</html>
