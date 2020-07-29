@@ -9,3 +9,4 @@
  */
 
 server.log("This file is where your custom logging code might appear.");
+server.log("This file is the tag v1.0.0 version.");
